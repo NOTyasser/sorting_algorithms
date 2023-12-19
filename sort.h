@@ -31,4 +31,8 @@ void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
+void swap(int *a, int *b)
+int partition_hoare(int *array, int low, int high, size_t size)
+void quicksort_hoare(int *array, int low, int high, size_t size)
+void quick_sort_hoare(int *array, size_t size)
 #endif
