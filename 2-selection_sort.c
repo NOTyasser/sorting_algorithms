@@ -8,11 +8,12 @@
  */
 void selection_sort(int *array, size_t size)
 {
-    if (!array || !size)
-		return;
+
     size_t i, j, min_idx;
     int tmp;
-
+	
+if (!array || !size)
+		return;
     for (i = 0; i < size - 1; i++)
     {
         min_idx = i;
